@@ -12,6 +12,56 @@
     padding: 0 2%;
 }
 
+footer{
+    padding: 60px 0;
+    background-color: rgb(240,240,240);
+}
+
+.single-article{
+    width: 33.3%;
+    display: inline-block;
+    border: 12px solid transparent;
+    margin-right: -4px;
+}
+
+.single-article h3{
+    width: 100%;
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: rgb(40,40,40);
+}
+
+.single-article .box-article{
+    width: 100%;
+    padding-top: 50%;
+    background-color: rgb(200,200,200);
+    margin: 30px 0 20px 0;
+}
+
+.single-article p{
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    text-align: justify;
+    color: rgb(40,40,40);
+}
+
+.single-article a{
+    display: inline-block;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #f4511e;
+    border-radius: 19px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
 .main{
     display: flex;
     flex-direction: column;
